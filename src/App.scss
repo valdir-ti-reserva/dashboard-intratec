@@ -1,24 +1,3 @@
-:root {
-    --color-fiord: #394263;
-    --color-white: #fff;
-    --color-athens-gray: #EAEDF1;
-    --color-catskill-white: #F9FAFC;
-    --color-abbey: #777;
-    --color-mischka: #DADAE3;
-    --color-java: #1BBAE1;
-    --color-mine-shaft: #333;
-    --color-zest: #e67e22;
-    --color-jungle-green: #27ae60;
-    --color-cinnabar: #e74c3c;
-    --color-amethyst: #af64cc;
-    --color--transparent: rgba(255, 255, 255, .5);
-    --color-alto: #D3D3D3;
-
-    --height-header: 50px;
-    --height-footer: 50px;
-    --width-sidenav: 240px;
-}
-
 @mixin profile-avatar {
     background-image: url("https://avatars.githubusercontent.com/u/11434239?v=4");
     background-size: cover;
@@ -770,29 +749,7 @@
     min-width: 0;
   }
 
-  .footer {
-    grid-area: footer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 16px;
-    color: var(--color-abbey);
-    background-color: var(--color-white);
-
-    &__copyright {
-      color: var(--color-java);
-    }
-
-    &__icon {
-      color: var(--color-cinnabar);
-    }
-
-    &__signature {
-      color: var(--color-java);
-      cursor: pointer;
-      font-weight: bold;
-    }
-  }
+  
 
   // Mobile screen breakpoints (750px)
   @media only screen and (min-width: 46.875em) {

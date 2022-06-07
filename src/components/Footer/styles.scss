@@ -1,0 +1,23 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    color: var(--color-abbey);
+    background-color: var(--color-white);
+
+    &__copyright {
+      color: var(--color-java);
+    }
+
+    &__icon {
+      color: var(--color-cinnabar);
+    }
+
+    &__signature {
+      color: var(--color-java);
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
