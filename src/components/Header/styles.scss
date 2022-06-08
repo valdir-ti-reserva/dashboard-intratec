@@ -16,6 +16,9 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-catskill-white);
+    position: fixed;
+    width: calc(100% - var(--width-sidenav));
+    right: 17px;
 
     &__menu {
       position: fixed; // Needs to stay visible for all mobile scrolling
