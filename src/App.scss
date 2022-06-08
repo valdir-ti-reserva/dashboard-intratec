@@ -54,7 +54,7 @@ a {
     'main'
     'footer';
   height: 100vh;
-  overflow-x: hidden; // Prevent overflow scroll from hidden sidenav
+  overflow-x: hidden;
 
   &--noscroll {
     overflow-y: hidden;
@@ -63,10 +63,10 @@ a {
 
 // Mobile screen breakpoints (750px)
 @media only screen and (min-width: 46.875em) {
-  // Break out to sidenav grid layout on medium + screens
+
   .grid {
     display: grid;
-    grid-template-columns: var(--width-sidenav) calc(100% - 240px); // Charts responsiveness won't work with fr units
+    grid-template-columns: var(--width-sidenav) calc(100% - 240px);
     grid-template-rows: var(--height-header) 1fr var(--height-footer);
     grid-template-areas:
       'sidenav header'
